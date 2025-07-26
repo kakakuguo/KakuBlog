@@ -14,9 +14,9 @@ const sites = [{ name: "Frosti Demo", url: "https://frosti.saroprock.com/" }];
 <BaseLayout title="Friends">
   <CardGroup cols="1">
     <MainCard
-      title="Friends & Resources"
-      description="A collection of links to friends, technologies, and contributors to the Frosti project."
-      textOverlay="FRIENDS"
+      title="朋友 & 资源"
+      description="一个链接到Kaku的朋友、贡献者和技术的集合"
+      image=/image/friends.jpg
       infoIcon="lucide:link"
     >
       <div class="space-y-10">
@@ -24,11 +24,19 @@ const sites = [{ name: "Frosti Demo", url: "https://frosti.saroprock.com/" }];
         <section>
           <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
             <Icon name="lucide:users" class="w-6 h-6 text-primary" />
-            <span>Friends</span>
+            <span>朋友</span>
           </h2>
 
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            <FriendCard
+	 <FriendCard
+              name="里面包"
+              avatar=/friend001.jpg
+              description="大胆！"
+              url="https://steamcommunity.com/id/1205768305/"
+              type="friend"
+            />
+
+        <!--    <FriendCard
               name="Lyme Blurred"
               avatar="https://github.com/lymeblurred.png"
               description="Building, breaking, and learning daily | A copy of EveSunMaple"
@@ -49,6 +57,7 @@ const sites = [{ name: "Frosti Demo", url: "https://frosti.saroprock.com/" }];
               url="https://github.com/SnowFoxqwq"
               type="friend"
             />
+	-->
           </div>
         </section>
 
@@ -56,7 +65,7 @@ const sites = [{ name: "Frosti Demo", url: "https://frosti.saroprock.com/" }];
         <section>
           <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
             <Icon name="lucide:git-pull-request" class="w-6 h-6 text-primary" />
-            <span>Contributors</span>
+            <span>贡献者</span>
           </h2>
 
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -130,7 +139,7 @@ const sites = [{ name: "Frosti Demo", url: "https://frosti.saroprock.com/" }];
         <section>
           <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
             <Icon name="lucide:bookmark" class="w-6 h-6 text-primary" />
-            <span>Useful Resources</span>
+            <span>有用的资源</span>
           </h2>
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -174,10 +183,10 @@ const sites = [{ name: "Frosti Demo", url: "https://frosti.saroprock.com/" }];
 
         <div class="text-center">
           <p class="text-base-content/80 mb-4">
-            Want to be featured on this page? Feel free to reach out or contribute to the project!
+            想要成为本页的特色？请随时联系或为项目做出贡献！
           </p>
           <a
-            href="https://github.com/EveSunMaple/Frosti"
+            href="https://github.com/kakakuguo/zlog"
             target="_blank"
             rel="noopener noreferrer"
             class="btn btn-primary gap-2"
@@ -188,6 +197,7 @@ const sites = [{ name: "Frosti Demo", url: "https://frosti.saroprock.com/" }];
         </div>
       </div>
     </MainCard>
+<!--
     <Card>
       <div class="p-4 sm:p-6">
         <div class="space-y-10">
@@ -218,5 +228,6 @@ const sites = [{ name: "Frosti Demo", url: "https://frosti.saroprock.com/" }];
         </div>
       </div>
     </Card>
+-->
   </CardGroup>
 </BaseLayout>
