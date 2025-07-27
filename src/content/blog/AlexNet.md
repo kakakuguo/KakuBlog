@@ -48,8 +48,6 @@ AlexNet和LeNet的设计理念非常相似，但也存在显著差异。
 
 AlexNet通过暂退法控制全连接层的模型复杂度，而LeNet只使用了权重衰减。 为了进一步扩充数据，AlexNet在训练时增加了大量的图像增强数据，如翻转、裁切和变色。 这使得模型更健壮，更大的样本量有效地减少了过拟合。
 
-
-
 ```python
 import torch
 from torch import nn
@@ -99,5 +97,3 @@ d2l.train_ch6(net, train_iter, test_iter, num_epochs, lr, d2l.try_gpu())
 ```
 
 ![训练结果](../../../public/image/AlexNet3.png)
-
-
