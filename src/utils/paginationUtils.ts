@@ -44,6 +44,7 @@ export async function getCategoryPaginationPaths({ paginate }: { paginate: any }
   const allPosts = await getAllPosts();
   const sortedPosts = sortPostsByDate(allPosts);
   const allCategories = [...new Set(sortedPosts.flatMap((blog: CollectionEntry<"blog">) => blog.data.categories || []))];
+
   const postsWithStats = await getPostsWithStats(sortedPosts);
 
   return allCategories.flatMap((category) => {

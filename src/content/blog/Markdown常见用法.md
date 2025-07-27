@@ -4,7 +4,7 @@ description: Markdown
 pubDate: 07 26 2025
 image: /image/Markdown教程.png
 categories:
-  - Examples
+  - Others
 tags:
   - Markdown
   - 教程

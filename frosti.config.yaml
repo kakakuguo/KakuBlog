@@ -34,16 +34,23 @@ site:
           href: /blog
           svg: "material-symbols:ink-pen-outline-rounded"
           target: _self
-        - id: documentation
+        - id: network-safety
           text: 网络安全
-          href: /blog/category/Documentation
+          href: /blog/category/网络安全
           svg: "material-symbols:health-and-safety-outline-rounded"
           target: _self
-        - id: examples
+        - id: deep-learning
+          text: 深度学习
+          href: /blog/category/深度学习
+          svg: "material-symbols:health-and-safety-outline-rounded"
+          target: _self
+        - id: others
           text: 其他博客
-          href: /blog/category/Examples
+          href: /blog/category/Others
           svg: "material-symbols:other-admission-outline-rounded"
           target: _self
+
+
         # 子菜单项配置
     - id: project
       text: 项目
