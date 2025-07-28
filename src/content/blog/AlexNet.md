@@ -4,7 +4,7 @@ description: AlexNet是一种深度卷积神经网络，AlexNet 被认为是计�
 pubDate: 07 27 2025
 image: /image/AlexNet.png
 draft: false
-
+badge: Pin
 categories:
   - 深度学习
 tags:

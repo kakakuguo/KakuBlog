@@ -44,6 +44,11 @@ site:
           href: /blog/category/深度学习
           svg: "material-symbols:health-and-safety-outline-rounded"
           target: _self
+        - id: math
+          text: 数学
+          href: /blog/category/数学
+          svg: "material-symbols:health-and-safety-outline-rounded"
+          target: _self
         - id: others
           text: 其他博客
           href: /blog/category/Others
