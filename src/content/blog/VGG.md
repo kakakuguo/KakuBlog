@@ -96,3 +96,11 @@ d2l.train_ch6(net, train_iter, test_iter, num_epochs, lr, d2l.try_gpu())
 ```
 
 ![VGG模型训练结果](../../../public/image/VGG3.png)
+
+---
+
+## 总结
+
+- VGG-11使用可复用的卷积块构造网络。不同的VGG模型可通过每个块中卷积层数量和输出通道数量的差异来定义。
+- 块的使用导致网络定义的非常简洁。使用块可以有效地设计复杂的网络。
+- 在VGG论文中，Simonyan和Ziserman尝试了各种架构。特别是他们发现深层且窄的卷积（即）比较浅层且宽的卷积更有效。
