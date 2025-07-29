@@ -3,7 +3,6 @@ title: SQL注入——基本介绍篇
 description: SQL注入是一种是一种常见的网络安全漏洞攻击手段。
 pubDate: 07 29 2025
 badge: Pin
-draft: false
 categories:
 - 网络安全
 tags:
