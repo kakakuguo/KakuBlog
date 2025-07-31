@@ -1,6 +1,6 @@
 ---
-title: SQL注入——基本介绍篇
-description: SQL注入是一种是一种常见的网络安全漏洞攻击手段。
+title: SQL注入(1)——基本介绍篇
+description: SQL注入是一种是一种常见的网络安全漏洞攻击手段。本文章简单介绍少了SQL注入的原理以及注入方式和应对措施。
 pubDate: 07 29 2025
 badge: Pin
 categories:
