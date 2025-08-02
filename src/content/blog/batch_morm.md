@@ -1,7 +1,7 @@
 ---
-title: NiN
-description: NIN(NetWork In NetWork) 是出自新加坡国立大写2014年的论文"Network In Network",NIN 改进了传统的CNN采用了少量参数就取得了超过AlexNet的性能。
-pubDate: 07 29 2025
+title: batch_norm
+description: 本文介绍batch norm相关内容
+pubDate: 07 31 2025
 draft: false
 categories:
     - 深度学习
@@ -14,8 +14,6 @@ tags:
 ---
 
 # 批量规范化
-
-:label:`sec_batch_norm`
 
 训练深层神经网络是十分困难的，特别是在较短的时间内使他们收敛更加棘手。本节将介绍*批量规范化*（batch normalization），这是一种流行且有效的技术，可持续加速深层网络的收敛速度。再结合残差块，批量规范化使得研究人员能够训练100层以上的网络。
 
